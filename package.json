@@ -6,11 +6,12 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "chromatic": "npx chromatic --project-token=10bc6119a72d",
+    "chromatic": "npx chromatic --exit-zero-on-changes --project-token=10bc6119a72d",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "chromatic": "^5.5.1-dev.0",
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
@@ -25,7 +26,6 @@
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.3",
-    "chromatic": "^6.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "vue-loader": "^15.9.8",
